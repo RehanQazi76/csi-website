@@ -1,12 +1,12 @@
-How to run in your side?
+How to run in your side? <br/>
 
-download the code
-import the node_modules file by running command * npm i * in the terminal in the code folder
-import necessary dependencies which somebody has used, mentioned in package.json
-Example: npm i <name of dependency>
-*import same version of dependencies example: npm install react-router-dom@5.3.0*
+download the code <br/>
+import the node_modules file by running command * npm i * in the terminal in the code folder <br/>
+import necessary dependencies which somebody has used, mentioned in package.json <br/>
+Example: npm i <name of dependency> <br/>
+*import same version of dependencies example: npm install react-router-dom@5.3.0* <br/>
 
-*to run the project on local host: use: npm run start*
+*to run the project on local host: use: npm run start* <br/>
 
 
 # Getting Started with Create React App
