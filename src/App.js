@@ -4,6 +4,7 @@ import { Home } from './components/Home'
 import { Navbar } from './components/Navbar';
 import { Projects } from './components/Projects';
 import { Team } from './components/Team';
+import Footer from './components/Footer';
 import './app.css'
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <ContactUs />
                 </Route>
             </Switch>
+            <Footer />
     </Router>
     </div>
   );
