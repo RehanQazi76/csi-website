@@ -1,20 +1,25 @@
-import React from 'react'
-import '../Team.css'
+import React from 'react';
+import '../Team.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const img_path = process.env.PUBLIC_URL +'/assets/';
 
 export const Team = () => {
     return (
         <>
-        <div className="container">
-             <div className="container">
+        <div className="container-fluid mainBody">
+             <div className="container ">
                <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Our Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Our Team</h1> 
+
+           
         </div>
     </div>
-</div>
+    </div>
 {/*<div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
@@ -128,13 +133,13 @@ export const Team = () => {
     <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Technical Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Technical Team</h1>
         </div>
     </div>
 </div>
 
-<div className="row ">
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+<div className="row " >
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}atharva_joshi.png`}alt=""/>
@@ -156,7 +161,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className="col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className="col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}himanshu_dhar.png`} alt=""/>
@@ -177,7 +182,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}vivek_verma.png`} alt=""/>
@@ -198,7 +203,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}aditya_malvadkar.png`} alt=""/>
@@ -219,7 +224,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className="col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className="col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}anoushka_mudkhedkar.png`} alt=""/>
@@ -240,7 +245,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}krishna_sudan.png`} alt=""/>
@@ -261,7 +266,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}kshitij_chaudhari.png`} alt=""/>
@@ -283,7 +288,7 @@ export const Team = () => {
             </div>
         </div>
 
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}mitul_koul.png`} alt=""/>
@@ -304,7 +309,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}rehanuddin_qazi.png`} alt=""/>
@@ -325,7 +330,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}sahil_hariyal.png`} alt=""/>
@@ -346,7 +351,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}sanket_jagdale.png`} alt=""/>
@@ -367,7 +372,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}sanket_patil.png`} alt=""/>
@@ -393,11 +398,11 @@ export const Team = () => {
     <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Content Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Content Team</h1>
         </div>
     </div>
     </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}narayani_vinke.png`} alt=""/>
@@ -418,7 +423,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-<div className ="row">
+<div className ="row" data-aos="fade-up">
 
         <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
             <div className="our-team">
@@ -468,11 +473,11 @@ export const Team = () => {
 <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Corporate Relation Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Corporate Relation Team</h1>
         </div>
     </div>
 </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}pranav_ratnaparkhi.png`} alt=""/>
@@ -493,7 +498,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-    <div className="row">
+    <div className="row" data-aos="fade-up">
         <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
             <div className="our-team">
                 <div className="pic">
@@ -542,11 +547,11 @@ export const Team = () => {
 <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Multimedia Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Multimedia Team</h1>
         </div>
     </div>
 </div>
-<div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+<div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}ameya_karpe.png`} alt=""/>
@@ -568,7 +573,7 @@ export const Team = () => {
             </div>
         </div>
 
-<div className="row">
+<div className="row" data-aos="fade-up">
         <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
             <div className="our-team">
                 <div className="pic">
@@ -638,11 +643,11 @@ export const Team = () => {
 <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Operations Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Operations Team</h1>
         </div>
     </div>
 </div>
-<div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+<div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}prathamesh_kachkure.png`} alt=""/>
@@ -663,7 +668,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-<div className="row">
+<div className="row" data-aos="fade-up">
         <div className="col-xl-3 col-sm-6 mx-auto mb-5">
             <div className="our-team">
                 <div className="pic">
@@ -753,11 +758,11 @@ export const Team = () => {
     <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Publicity Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Publicity Team</h1>
         </div>
     </div>
 </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}akshad_modi.png`} alt=""/>
@@ -778,7 +783,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-    <div className="row">
+    <div className="row" data-aos="fade-up">
         <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
             <div className="our-team">
                 <div className="pic">
@@ -827,11 +832,11 @@ export const Team = () => {
 <div className="container py-5">
     <div className="row text-center text-white">
         <div className="col-lg-8 mx-auto">
-            <h1 className="display-4" style={{color:`black`}}>Social Media Team</h1>
+            <h1 className="display-4" style={{color:`white`}}>Social Media Team</h1>
         </div>
     </div>
 </div>
-        <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
+        <div className=" col-xl-4 col-sm-6 mx-auto mb-5" data-aos="fade-up">
             <div className="our-team">
                 <div className="pic">
                     <img src={`${img_path}prem_baravkar.png`} alt=""/>
@@ -852,7 +857,7 @@ export const Team = () => {
                 </h3>
             </div>
         </div>
-<div className="row">
+<div className="row" data-aos="fade-up">
         <div className=" col-xl-4 col-sm-6 mx-auto mb-5">
             <div className="our-team">
                 <div className="pic">
@@ -907,5 +912,14 @@ export const Team = () => {
         </>
     )
 } 
+AOS.init({
+    duration:1200,
+});
+let scrollRef = 0;
+
+window.addEventListener('scroll', function() {
+  // increase value up to 10, then refresh AOS
+  scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+});
 
 
