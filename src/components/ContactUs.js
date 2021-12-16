@@ -113,10 +113,6 @@ export const ContactUs = () => {
             </div>
           </div>
           </div>
-          <div className="text-center p-4 copyright">
-            © 2021 Copyright:&nbsp;
-            <Link class="text-reset fw-bold" to="/">CSI VIT Pune</Link>
-        </div>
       </div>
   );
 };
