@@ -58,6 +58,7 @@
 }
 .our-team .team-prof {
   text-align: center;
+  color: white;
 }
 .our-team .team-prof a {
   color: #333;
@@ -76,6 +77,9 @@
   margin-top: 3%;
   text-transform: uppercase;
 }
-.borders {
-  border: 3px solid black;
+.mainBody {
+  background-color: #1c2541;
+  display: block;
+  min-height: 100vh;
+  min-width: 100vh;
 }
