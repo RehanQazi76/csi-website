@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar';
 import { Projects } from './components/Projects';
 import { Team } from './components/Team';
 import './app.css'
+import { Timeline } from './components/Timeline';
 function App() {
   return (
     <div className="appClass">
@@ -23,6 +24,9 @@ function App() {
               <Route exact path="/contact">
                 <ContactUs />
                 </Route>
+              <Route exact path="/Events">
+                <Timeline />
+               </Route>  
             </Switch>
     </Router>
     </div>
