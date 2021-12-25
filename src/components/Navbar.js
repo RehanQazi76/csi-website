@@ -27,9 +27,6 @@ export const Navbar = () => {
         <li className="nav-item">
           <Link className={`nav-link ${location.pathname==="/contact"?"active": "" }`} to="/contact">Contact Us</Link>
         </li>
-        <li className="nav-item">
-          <Link className={`nav-link ${location.pathname==="/Events"?"active": "" }`} to="/Events">Our Events</Link>
-        </li>
       </ul>
     </div>
   </div>
