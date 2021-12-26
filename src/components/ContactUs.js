@@ -69,7 +69,7 @@ export const ContactUs = () => {
                 ></textarea>
                 <label htmlFor="floatingTextarea">Message</label>
               </div>
-              <button type="button" className="btn btn-outline">
+              <button type="button" className="btn btn-outline mb-5">
                 Send Message
               </button>
             </div>
