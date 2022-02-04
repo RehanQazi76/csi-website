@@ -1,0 +1,20 @@
+.intro{
+    width: 100%;
+    background:url("../components/cool-background.png") no-repeat center fixed ;
+    /* background-size: contain; */
+    height: 400px;
+}
+.intro ,span{
+    display: inline-flex ;
+    justify-content: center;
+}
+.logo{
+    margin: auto 0 auto 0;
+}
+/***************about us ************/
+.abtus{
+    margin: 6px 0 8px 0;
+}
+.team{
+    width: 200px;;
+}
