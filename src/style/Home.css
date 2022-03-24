@@ -1,12 +1,15 @@
 .intro{
     width: 100%;
-    background:url("../components/cool-background.png") no-repeat center fixed ;
+    /* background:url("https://media.istockphoto.com/photos/abstract-geometric-background-connecting-dots-as-plexus-in-blue-and-picture-id1187662232?b=1&k=20&m=1187662232&s=170667a&w=0&h=kQChoMTKqNjO2FNJVkV5ZuayKrIGLHQG96jDGfR9Eec=") no-repeat center fixed ; */
     /* background-size: contain; */
     height: 400px;
+    background-image: url('https://technoswift.in/assets/img/rh.jpeg') ;
 }
 .intro ,span{
     display: inline-flex ;
     justify-content: center;
+    z-index: 2;
+    margin: 100px 0 100px 0 ;
 }
 .logo{
     margin: auto 0 auto 0;
@@ -17,4 +20,13 @@
 }
 .team{
     width: 200px;;
+}
+.csi{
+    font-size: 200px;
+    color: white;
+    margin: auto 0 auto 0;
+}
+.img{
+ z-index: 0;
+ justify-content: center;
 }
