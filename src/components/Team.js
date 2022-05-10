@@ -583,8 +583,7 @@ export const Team = () => {
                         Smart and active in every phase of life
                         </p>
                         <ul className="social-link">
-                      
-                            <li><a href="#" className="fab fa-linkedin">{}</a></li>
+                    
                        
                         </ul>
                     </div>
