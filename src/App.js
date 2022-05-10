@@ -5,7 +5,6 @@ import { Navbar } from './components/Navbar';
 import { Timeline } from './components/Timeline';
 import { Projects } from './components/Projects';
 import { Team } from './components/Team';
-import { Events } from './components/Events';
 import Footer from './components/Footer';
 import './app.css'
 function App() {
