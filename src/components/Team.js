@@ -584,7 +584,7 @@ export const Team = () => {
                         </p>
                         <ul className="social-link">
                       
-                            <li><a href="#" className="fab fa-linkedin">{}</a></li>
+                            
                        
                         </ul>
                     </div>
