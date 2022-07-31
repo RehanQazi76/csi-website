@@ -43,6 +43,7 @@ const NavBar = () => {
     <div className={""+(!isClose?"navbarFull":"navbarShrink")}>
         {(isClose )&& <Button isOpen={isOpen} setIsOpen={setIsOpen} />}        
         {isOpen &&
+        <>
         <NavbarContainer>
         <NavbarItems value={"Home"}  to={"/"}/>
         <NavbarItems value={"Team"} to={"/team"}/>
@@ -50,6 +51,7 @@ const NavBar = () => {
         <NavbarItems value={"Our Events"} to={"projects"}/>
         <NavbarItems value={"Contact Us"} to={"contact"}/>
       </NavbarContainer>
+        </>
         }
     </div>
   )
