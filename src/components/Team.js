@@ -147,11 +147,10 @@ export const Team = () => {
                         <p className="description">
                         A biological neural network trained for 19 years.
                         </p>
-                        <ul className="social-link">
-                      
-                            
-                            <li><a href="https://www.linkedin.com/in/atharva-joshi-a89a671b2" className="fab fa-linkedin">{}</a></li>
-                       
+                        <ul className="social-link">                   
+                            <li>
+                                <a href="https://www.linkedin.com/in/atharva-joshi-a89a671b2" className="fab fa-linkedin">{}</a>
+                            </li>                       
                         </ul>
                     </div>
                 </div>

@@ -6,9 +6,12 @@
   font-family: 'Poppins',sans-serif;
 }
 body{
-  background: #1c2541 no-repeat center center fixed;
+  background: #001220 no-repeat center center fixed;
+  background-color: #001220;
   -webkit-background-size: cover;
  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
+
