@@ -37,6 +37,7 @@
     margin:0.5rem;
     z-index:2;
 
+
     .hamburger{
       border:none;
       border-radius: var(--border-radius);
@@ -57,15 +58,27 @@
       animation:animate 1s ease-out;
       border-radius: var(--border-radius);
 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
       background: rgba( 255, 255, 255, 0.35 );
       box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
       backdrop-filter: blur( 6px ); 
       -webkit-backdrop-filter: blur( 6px );
       border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
-  
+
+    .logo{
+      max-width: 50px;
+      height:50px;
+      border-radius:50%;
+    }  
+
     
     .navbar-ul{
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -82,10 +95,11 @@
       border-radius: var(--border-radius);
       transition: background var(--speed);
 
-      background-color: #0066FF;
-      background-image: linear-gradient(135deg, #4FACF7 0%, #9599E2 100%);
+      background-color: #001220;
+      background-image: linear-gradient(135deg, #4FACF7 0%, #41436b 100%);
       box-shadow: 0 4px 30px rgba(255,255,255,0.1);
       backdrop-filter: blur(5px);
+      font-weight: bold;
     }
     .nav-item:hover{
       filter: brightness(1.2);  
@@ -101,12 +115,22 @@
       padding:0 1rem;
       border-bottom: var(--border);
       width:100%;
-
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
       //glass effect
       background:rgb(0, 18, 32,0.3); 
       box-shadow: 0 4px 30px rgba(255,255,255,0.1);
-     }
-      
+    }
+
+    .logo{
+      max-width: 50px;
+      height:50px;
+      border-radius:50%;
+      margin-left: 0.5rem;
+    }
+    
     .navbar-ul{
       max-width: 100%;
       height: 100%;
@@ -122,10 +146,10 @@
       border-radius: var(--border-radius);
       padding: 0px 0.5rem;
 
-      background-color: #0066FF;
-      background-image: linear-gradient(135deg, #4FACF7 0%, #9599E2 100%);
-      box-shadow: 0 4px 30px rgba(255,255,255,0.1);
-      backdrop-filter: blur(5px);
+      // background-color: #0066FF;
+      // background-image: linear-gradient(135deg, #4FACF7 0%, #9599E2 100%);
+      // box-shadow: 0 4px 30px rgba(255,255,255,0.1);
+      // backdrop-filter: blur(5px);
     }
     .nav-item:hover{
       filter: brightness(1.2);  
