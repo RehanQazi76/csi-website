@@ -1,46 +1,19 @@
-.container{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .intro{
-    position: relative;
     width: 100%;
     /* background:url("https://media.istockphoto.com/photos/abstract-geometric-background-connecting-dots-as-plexus-in-blue-and-picture-id1187662232?b=1&k=20&m=1187662232&s=170667a&w=0&h=kQChoMTKqNjO2FNJVkV5ZuayKrIGLHQG96jDGfR9Eec=") no-repeat center fixed ; */
     /* background-size: contain; */
-    /* height: auto; */
-    height:200px;
-    background-image: url('https://technoswift.in/assets/img/rh.jpeg');
-    /* background-repeat:no-repeat; */
-    width:auto/9;
-    background-position: center;
-    background-size: cover;
+    height: 400px;
+    /* background-image: url('https://technoswift.in/assets/img/rh.jpeg') ; */
 }
-.about{
-    width:100%;
-    max-width: 600px;
-    min-height:200px;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color:#fff;
-    padding:1rem;
-}
-
 .intro ,span{
     display: inline-flex ;
     justify-content: center;
-    z-index: -10;
+    z-index: 2;
     margin: 100px 0 100px 0 ;
 }
 .logo{
     margin: auto 0 auto 0;
 }
-
 /***************about us ************/
 .abtus{
     margin: 6px 0 8px 0;
@@ -54,33 +27,11 @@
     margin: auto 0 auto 0;
 }
 .img{
- z-index:1;
+ z-index: 0;
  justify-content: center;
 }
 
-.spacer{
-    position:absolute;
-    aspect-ratio: 640/320;
-    width: 100%;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index:-500;
-}
 
-.layer1
-{
-    height:100%;
-    max-height: 700px;
-    background-image: url('../components/images/layer1.svg');
-    /* z-index: 1; */
+ p {
+    font-family: 'Ibarra Real Nova', serif;
 }
-
-.flip{
-    position: relative;
-    clip:rect(0px,1600px,300px,0px);
-    width: 100%;
-    aspect-ratio: 640/320;
-    transform: rotate(180deg);
-    bottom:0px;
- }
