@@ -16,29 +16,29 @@ const Footer = () => {
                    marginTop: "-50px" }}>
         Computer Society of Pune, VIT chapter
       </h1>
-      <Container>
+     <Container>
         <Row>
-          <Column>
+          <Column style={{margin:"8px"}}>
             
             <FooterLink href="#">About Us</FooterLink>
             
           </Column>
-          <Column>
+          <Column  style={{margin:"8px"}}>
             
             <FooterLink href="#">Services</FooterLink>
             
           </Column>
-          <Column>
+          <Column  style={{margin:"8px"}}>
             
             <FooterLink href="#">Contact Us</FooterLink>
             
           </Column>
-          <Column>
+          <Column  style={{margin:"8px"}}>
             <Heading>Social Media</Heading>
             </Column>
         </Row>
         <Row>
-          <Column>
+          <Column  style={{margin:"8px"}}>
             <FooterLink href="#">
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>
@@ -47,7 +47,7 @@ const Footer = () => {
               </i>
             </FooterLink>
             </Column>
-            <Column>
+            <Column  style={{margin:"8px"}}>
             <FooterLink href="#">
               <i className="fab fa-instagram">
                 <span style={{ marginLeft: "10px" }}>
@@ -56,7 +56,7 @@ const Footer = () => {
               </i>
             </FooterLink>
             </Column>
-            <Column>
+            <Column style={{margin:"8px"}}>
             <FooterLink href="#">
               <i className="fab fa-twitter">
                 <span style={{ marginLeft: "10px" }}>
@@ -65,7 +65,7 @@ const Footer = () => {
               </i>
             </FooterLink>
             </Column>
-            <Column>
+            <Column style={{margin:"8px"}}>
             <FooterLink href="#">
               <i className="fab fa-youtube">
                 <span style={{ marginLeft: "10px" }}>
@@ -75,7 +75,7 @@ const Footer = () => {
             </FooterLink>
           </Column>
           </Row>
-      </Container>
+      </Container>
     </Box>
   );
 };
